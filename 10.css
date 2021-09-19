@@ -1,0 +1,23 @@
+/*brother selector */
+
+/*don't select style up to here*/
+li.red ~ li {
+    background: red;
+}
+
+/*select this element with stated style */
+li.red + li {
+    background: red;
+}
+    /*Or apply with "child"*/
+    li:first-child {
+        background: red;
+    }
+    /*Or apply with "last-of-type"*/
+    li:last-of-type {
+        background: red;
+    }
+    /*Other*/
+    li:not(.green) {
+        background: red;
+    }

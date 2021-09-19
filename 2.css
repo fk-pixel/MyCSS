@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+div button {
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    background: cornflowerblue;
+    border: none;
+    cursor: pointer;
+}
+h1 {
+    height: 5rem;
+    margin: 3rem;
+    display: block;
+} 
+
+a {
+    width: 1rem;
+    height: 2.5rem;
+    padding: 2rem;
+    margin: 3rem;
+}

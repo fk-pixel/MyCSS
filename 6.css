@@ -1,0 +1,6 @@
+/*display changes to dark mode*/
+html {
+    background-color: black;
+    filter: invert(1) hue-rotate(180deg);
+}
+

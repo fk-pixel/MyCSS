@@ -1,0 +1,18 @@
+/*controle to font-size any width-height*/
+html {
+    font-size: 62.5%; /*default setting by 16pixel*/
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 55%;
+    }    
+};

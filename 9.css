@@ -1,0 +1,9 @@
+/*add webkit and gradiant header in h1*/
+h1 {
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(to left, rgb(112,101,214), rgb(230,106,213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}

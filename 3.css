@@ -1,0 +1,11 @@
+div {
+    width: 80%;
+    height: 100vh;
+    background: blanchedalmond;
+    text-align: center;
+    margin: auto;
+    line-height: 100vh; /*to center the text*/
+    /*null-left-side margin: 0 0 0 auto*/
+    /*null-right-side margin: 0 auto 0 0*/
+}
+

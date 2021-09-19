@@ -1,0 +1,11 @@
+/*change the background color p is by selected*/
+p::selection {
+    background: chartreuse;
+    color: rgb(255, 21, 21);
+}
+/*change the first letter*/
+p::first-letter {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
